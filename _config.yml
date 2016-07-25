@@ -6,16 +6,51 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: 江河終汇海
+email: f467941405@163.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  路漫漫其修远兮
+  吾将上下而求索
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://kingyisong.github.io/" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+github_username:  kingyisong
 
 # Build settings
 markdown: kramdown
+# 首页除了最新文章外显示分类
+
+# 作者信息
+author:
+  name: kingyisong
+  email: f467941405@163.com
+  github: http://github.com/kingyisong
+
+# 站点信息
+title: kingyisong的博客
+description: My personal blog
+url: https://kingyisong.github.io/"
+rss_url: /pages/atom.xml
+
+# gavatar头像及Favicon
+gavatar: /public/img/gavatar.png
+favicon: /public/img/gavatar.png
+
+# disqus 设置
+disqus:
+  shortname: kingyisong
+
+# 主题设置，自动激活某个标签
+active: 读书
+
+# 首页除了最新文章外显示分类
+cates:
+  - Optimization
+  - LaTeX
+
+# 中文本地化
+locals:
+  tags: 标签
+  about: 关于
+  newest: 最新文章
+  archive: 归档
