@@ -16,6 +16,8 @@ url: "https://kingyisong.github.io/" # the base hostname & protocol for your sit
 #twitter_username: jekyllrb
 github_username:  kingyisong
 
+encoding: utf-8
+
 # Build settings
 markdown: kramdown
 # 首页除了最新文章外显示分类
