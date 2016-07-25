@@ -1,7 +1,7 @@
 ---  
 layout: post  
 title: "First post"  
-date: 2016-08-25 9:04 
+date: 2016-08-25 9:04
 categories: 其他  
 ---  
 
