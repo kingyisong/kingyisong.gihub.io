@@ -1,5 +1,6 @@
 ---
 layout: page_title
+aaa: blog
 ---
 
 <div class="row">
@@ -8,7 +9,8 @@ layout: page_title
       <div class="panel-heading">{{ site.locals.newest }}</div>
       {% for post in paginator.posts %}
         <a  href='{{ post.url }}' class="list-group-item pjaxlink clearfix">
-          {{post.title}}
+
+
           <span class="badge">{{ post.date | date:"%Y年%m月%d日" }}</span>
         </a>
       {% endfor %}
@@ -22,7 +24,7 @@ layout: page_title
           {% if tag[0] == cate %}
             {% for post in tag[1] %}
               <a  href='{{ post.url }}' class="list-group-item pjaxlink clearfix">
-                {{post.title}}
+                1111
                 <span class="badge">{{ post.date | date:"%Y年%m月%d日" }}</span>
               </a>
             {% endfor %}
